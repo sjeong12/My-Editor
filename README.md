@@ -1,2 +1,2 @@
-# My-Editor
-✏ 나만의 에디터 만들기
+# My-Editor : ✏ 나만의 에디터 만들기
+[:eyes:이슈트래킹](https://github.com/users/sjeong12/projects/3) &nbsp;&nbsp; [:pencil2:학습일지](https://sewcode.tistory.com/category/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EB%A7%88%EC%9D%B4%EC%97%90%EB%94%94%ED%84%B0%20%3A%20%EB%82%98%EB%A7%8C%EC%9D%98%20%EC%97%90%EB%94%94%ED%84%B0)
