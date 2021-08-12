@@ -1,14 +1,14 @@
 <template>
-  <h1>{{ message }}</h1>
+	<h1>{{ message }}</h1>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      message: 'Hello My Editor',
-    };
-  },
+	data() {
+		return {
+			message: 'Hello My Editor',
+		};
+	},
 };
 </script>
 
