@@ -7,7 +7,7 @@ module.exports = {
   entry: './src/main.js',
   output: {
 	path: path.join(__dirname, 'dist'),
-	filename: 'bundle.js'
+	filename: '[name].js'
   },
   module: {
     rules: [
@@ -25,6 +25,11 @@ module.exports = {
         use: 'vue-loader'
       }
     ]
+  },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+    }
   },
   plugins: [
     new VueLoaderPlugin(),
