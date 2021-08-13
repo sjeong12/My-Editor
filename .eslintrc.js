@@ -3,6 +3,7 @@ module.exports = {
 		browser: true,
 		node: true,
 		es2021: true,
+		'jest/globals': true,
 	},
 	extends: [
 		'eslint:recommended',
@@ -14,7 +15,7 @@ module.exports = {
 		ecmaVersion: 12,
 		sourceType: 'module',
 	},
-	plugins: ['vue', 'prettier'],
+	plugins: ['vue', 'prettier', 'jest'],
 	rules: {
 		'prettier/prettier': [
 			'error',
