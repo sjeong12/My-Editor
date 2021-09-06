@@ -1,9 +1,10 @@
 import './App.css';
+import SpinBox from './components/SpinBox';
 
 function App() {
   return (
     <div className="App">
-      Hello My Editor!
+      <SpinBox/>
     </div>
   );
 }
