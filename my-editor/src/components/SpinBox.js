@@ -9,5 +9,4 @@ function SpinBox() {
     </div>
   );
 }
-
 export default SpinBox;
