@@ -28,7 +28,7 @@ function SpinBox() {
   const spinNum = (e, delay = 500) => {
     handleClick(e);
     timerRef.current = setTimeout(() => {
-      return spinNum(e, delay > 100 ? delay * 0.7 : 100);
+      spinNum(e, delay > 100 ? delay * 0.7 : 100)
     }, delay);
   }
 
