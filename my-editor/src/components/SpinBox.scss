@@ -1,0 +1,37 @@
+.spin-box {
+	width: 150px;
+	height: 25px;
+    display: flex;
+	justify-content: space-between;
+	margin: 2px 1px;
+	border-radius: 2px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	background: #f9f9f9;
+	input {
+		width: 119px;
+		height: 17px;
+		padding: 4px 8px;
+		border-style: none;
+		background: transparent;
+	}
+	.contorls {
+		width: 15px;
+		height: 25px;
+		display: flex;
+		border-radius: 2px;
+		box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+		flex-direction: column;
+		justify-content: center;
+		button {
+			flex: 1;
+			padding: 0;
+			border-style: none;
+			background: transparent;
+			font-size: 0.1em;
+			color: #353535;
+		}
+		*:hover {
+			color: #888;
+		}
+	}
+}
