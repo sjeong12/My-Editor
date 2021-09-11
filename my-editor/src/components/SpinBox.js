@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+import './SpinBox.scss'
 
 function SpinBox() {
   const [value, setValue] = useState(0);
@@ -45,8 +46,8 @@ function SpinBox() {
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseUp}
       >
-        <button id="inc-btn" type="button">+</button>
-        <button id="dec-btn" type="button">-</button>
+        <button id="inc-btn" type="button">▲</button>
+        <button id="dec-btn" type="button">▼</button>
 	    </div>
     </div>
   );
